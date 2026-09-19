@@ -99,9 +99,9 @@ jobs:
           "tasks": [
             {
               "task_key": "tarea1_notebook1",
-              "description": "Ejecuta notebook ntbk_1 con parámetros",
+              "description": "Ejecuta notebook cuadrerno1 con parámetros",
               "notebook_task": {
-                "notebook_path": "/py/scripts/main/ntbk_1",
+                "notebook_path": "/py/scripts/main/cuaderno1",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "storageLocation": "storage"
@@ -112,9 +112,9 @@ jobs:
             },
             {
               "task_key": "tarea2_notebook2",
-              "description": "Ejecuta notebook ntbk_2 con parámetros",
+              "description": "Ejecuta notebook cuaderno2 con parámetros",
               "notebook_task": {
-                "notebook_path": "/py/scripts/main/ntbk_2",
+                "notebook_path": "/py/scripts/main/cuaderno2",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "inputPath": "/data/input",
@@ -356,11 +356,11 @@ jobs:
         echo "🎉 ¡Despliegue y ejecución completados exitosamente!"
         echo ""
         echo "📊 Resumen:"
-        echo "✅ Notebooks desplegados: ntbk_1, ntbk_2"
+        echo "✅ Notebooks desplegados: cuaderno1, cuaderno2"
         echo "✅ Workflow creado: WF_ADB"
         echo "✅ Tareas configuradas:"
-        echo "   - tarea1_notebook1 (ntbk_1)"
-        echo "   - tarea2_notebook2 (ntbk_2)"
+        echo "   - tarea1_notebook1 (cuaderno1)"
+        echo "   - tarea2_notebook2 (cuaderno2)"
         echo "✅ Compute: serverless"
         echo "🚀 Workflow ejecutado automáticamente"
         echo ""
